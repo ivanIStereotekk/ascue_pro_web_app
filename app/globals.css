@@ -8,6 +8,7 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+//background color due to color scheme in mac os preferences
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
