@@ -1,12 +1,14 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import FooterComponent from '@/components/Footer'
+import HeaderComponent from '@/components/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'ASCUE.PRO - Сайт Компании ',
-  description: 'Системы комерческого учета и сбора данных воды, тепла, газа и электроэнергии. Разработка, монтаж, обработка данных, и все что связано с сокращением издержек энергии',
+  title: process.env.MAIN_PAGE_TITLE,
+  description: process.env.MAIN_PAGE_DESCRIPTION,
 }
 
 export default function RootLayout({
@@ -16,7 +18,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      
+      <body className={inter.className}>
+      <HeaderComponent/> 
+        <div className=" justify-left flex-row border border-dotted border-white"></div>
+          <div>{children}</div>
+        <div className=" justify-left flex-row border border-dotted border-white"></div>
+      <FooterComponent/>
+
+      </body>
+      
     </html>
   )
 }
