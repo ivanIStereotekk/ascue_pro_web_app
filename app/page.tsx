@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
-<div className="absolute left-100 transform bottom-0 cursor-progress -z-1 " aria-hidden="true">
+<div className="absolute left-100 transform bottom-0 -z-1 " aria-hidden="true">
         <svg  width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient x1="40%" y1="0%" x2="50%" y2="100%" id="illustration-01">
@@ -25,7 +25,7 @@ export default function Home() {
 
       <div className="z-1 max-w-5xl w-full items-left justify-between font-bold  lg:flex">
 
-        <p className="fixed left-0 px-5 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-blue-200 pb-2 pt-8 backdrop-blur-2xl dark:border-neutral-300 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-slate-200 lg:p-4 lg:dark:bg-slate-200/30">
+        <p className="fixed left-0 px-5 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-blue-10 pb-2 pt-8 backdrop-blur-2xl dark:border-neutral-300 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-slate-200 lg:p-4 lg:dark:bg-slate-200/30">
         ASCUE.PRO&nbsp;
           <code className=" px-1 font-thin text-sm"> - современный учет расхода энергии</code>
         </p>
@@ -40,7 +40,7 @@ export default function Home() {
       <div className="relative flex place-items-center before:absolute before:h-[400px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
       <img className='flex bg-gray' width="150" height="150" src="./meter.svg" alt="Power-Meter"/>
       
-      <h6>ASCUE.PRO</h6>
+      {/* <h6>ASCUE.PRO</h6> */}
       <iframe className='' src="https://lottie.host/?file=6dadd9cf-5876-4dbb-b5ea-7112de27b2d1/LBwp1loWEI.json"></iframe>
 
       

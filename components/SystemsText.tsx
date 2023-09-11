@@ -1,6 +1,6 @@
 export default function SystemsTextViewer(){
     return<article>
-        <h1 className=" font-bold text-lg pb-10 animate-bounce w-1 h-1">Features</h1>
+        <h1 className=" font-bold text-lg pb-10 ">Features</h1>
         <p>
         
 A performant, static blog with editable posts, authors, and site settings
