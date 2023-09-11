@@ -1,12 +1,13 @@
 "use client"
-
+import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
 
 
-export default function PortfolioPage(){
+export default function OrderPage(){
     
     return <div className=" flext flex-col p-10 justify-center">
-       Portfolio
+        ORDER
+        
     </div>
 }
 

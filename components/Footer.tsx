@@ -1,13 +1,11 @@
 export default function FooterComponent(){
-    return <div className=" flex flex-col justify-center">
+    return <div className=" flex flex-col py-20  justify-center">
     <button>
-    <a className="pointer-events-none  place-items-center gap-1 lg:pointer-events-auto lg:p-0"
-            href="https://surr.space"
-            target="_blank"
-            rel="noopener noreferrer">
-            <h6>design by: surr.space</h6>
+    <div className="pointer-events-none  place-items-center gap-5 lg:pointer-events-auto lg:p-0"
+            >
+            <div className=" text-sm text-gray-200 ">website design [ <a className="text-gray-300" href="https://surr.space">surr.space</a> ]</div>
             
-          </a>
+          </div>
 
     </button>
         

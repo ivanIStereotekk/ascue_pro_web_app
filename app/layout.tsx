@@ -19,11 +19,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       
+      
       <body className={inter.className}>
+
+
       <HeaderComponent/> 
-        <div className=" justify-left flex-row border border-dotted border-white"></div>
+        <div className=" justify-left flex-row border border-hidden border-white"></div>
           <div>{children}</div>
-        <div className=" justify-left flex-row border border-dotted border-white"></div>
+        <div className=" justify-left flex-row border border-hidden border-white"></div>
       <FooterComponent/>
 
       </body>

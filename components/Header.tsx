@@ -1,5 +1,18 @@
+import Image from "next/image"
 export default function HeaderComponent(){
-    return <div className=" flex flex-col ">
+    return <>
+    <header className=" flex flex-col justify-end px-20 pt-5 pb-0 bg-transparent">
+    <div className="p-100 animate-bounce">
+            <a href="/"> 
+            <Image 
+                src="/home.svg" 
+                alt="back"
+                width="20"
+                height="20"
+                />
+            </a>
+        </div>
        
-    </div>
+    </header></>
+    
 }
