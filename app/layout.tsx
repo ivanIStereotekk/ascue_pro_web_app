@@ -17,10 +17,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html className='scroll-smooth' lang="en">
       
       
-      <body className={inter.className}>
+      <div className={inter.className}>
 
 
       <HeaderComponent/> 
@@ -29,7 +29,7 @@ export default function RootLayout({
         <div className=" justify-left flex-row border border-hidden border-white"></div>
       <FooterComponent/>
 
-      </body>
+      </div>
       
     </html>
   )

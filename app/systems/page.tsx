@@ -19,7 +19,7 @@ export default function SystemsPage(){
 
         <div className=" flex flex-auto justify-center ">
             <button className=" h-35 w-152 rounded-md p-1 bg-orange-400 hover:bg-orange-500 outline outline-offset-2 outline-blue-500 ">
-                <a className=" font-semibold" href="/order" >Я все понял, мне нужно с вами связаться ! </a>
+                <a className=" font-semibold" href="/order" > 🌀 Я все понял, мне нужно с вами связаться ! </a>
             </button>
         </div>
         
