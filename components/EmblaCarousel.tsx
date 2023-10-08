@@ -1,9 +1,9 @@
 import React from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
-import imageByindex, { images } from '@/components/imageByIndex'
+import imageByindex, { images } from '@/components/meterImage'
 
 import Image from 'next/image'
-import imageByIndex from '@/components/imageByIndex'
+import imageByIndex from '@/components/meterImage'
 
 
 

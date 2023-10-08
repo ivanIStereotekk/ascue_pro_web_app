@@ -5,7 +5,7 @@ import Link from "next/link"
 
 
 export default function HeroOnPage(){
-    return <div className="pb-96 scroll-smooth" id='section-0'>
+    return <div className="pb-96 scroll-smooth items-center" id='section-0'>
 
 
 
@@ -13,14 +13,14 @@ export default function HeroOnPage(){
             <svg  width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <linearGradient x1="40%" y1="0%" x2="50%" y2="100%" id="illustration-01">
-                  <stop stopColor="#FFF" offset="0%" />
-                  <stop stopColor="#E3EDF8" offset="67.402%" />
+                  <stop stopColor="#53595B" offset="0%" />
+                  <stop stopColor="#1E1E3E" offset="67.402%" />
                   <stop stopColor="#C8DCFB" offset="100%" />
                 </linearGradient>
               </defs>
               <g fill="url(#illustration-01)" fillRule="evenodd">
-                <circle className='animate-pulse' cx="652" cy="30" r="28" />
-                <circle className="animate-pulse" cx="75" cy="143" r="64" />
+                <circle className='animate-pulse ' cx="652" cy="30" r="28" />
+                <circle className="animate-pulse " cx="75" cy="143" r="14" />
                 <circle className='animate-pulse' cx="875" cy="461" r="34" />
               </g>
             </svg>
@@ -34,34 +34,24 @@ export default function HeroOnPage(){
             ASCUE.PRO&nbsp;
               <code className=" px-1 font-thin text-sm"> - современный учет расхода энергии</code>
             </p>
-            <div className='flex flex-row px-50 font-bold text-lg text-gray-700'>
-    
-            </div>
+         
             <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
               
             </div>
           </div>
           
-          <div className="relative flex place-items-center before:absolute before:h-[400px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+<div className="relative flex place-items-center before:absolute before:h-[400px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
           <img className='flex bg-gray pt-10 pb-10' width="150" height="150" src="./meter.svg" alt="Power-Meter"/>
-          
-          {/* <h6>ASCUE.PRO</h6> */}
-          <iframe className='' src="https://lottie.host/?file=6dadd9cf-5876-4dbb-b5ea-7112de27b2d1/LBwp1loWEI.json"></iframe>
+
+          <iframe src="https://lottie.host/?file=6dadd9cf-5876-4dbb-b5ea-7112de27b2d1/LBwp1loWEI.json"></iframe>
+           
+          <iframe className='flex h-12 w-12' src="https://lottie.host/?file=9ff9f2f9-e88f-412e-930b-b522467ae378/Z9MRM3stEa.json"></iframe>
     
-          
-    
-          
-          
-    {/* <iframe className='flex h-12 w-12' src="https://lottie.host/?file=9ff9f2f9-e88f-412e-930b-b522467ae378/Z9MRM3stEa.json"></iframe> */}
-    
-    
-    
-          
-       
-          </div>
+{/* LINKS BUTTONS */}
+</div>
     
           <div className="mb-32 grid text-center lg:max-w-5xl gap-2 lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-            <Link
+<Link
               href="#section-a"
 
               className="group rounded-lg border border-gray-100 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -76,9 +66,9 @@ export default function HeroOnPage(){
               <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
               АСКУЭ -Автоматизированная система комерческого учёта электроэнергии. Читать...
               </p>
-            </Link>
+</Link>
     
-            <Link
+<Link
               href="#section-b"
               scroll={true}
     
@@ -94,7 +84,7 @@ export default function HeroOnPage(){
               <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
                 Ознакомится с выполненными проектами&nbsp;ASCUE.PRO!
               </p>
-            </Link>
+</Link>
     
             <Link
               href="#section-c"
@@ -110,9 +100,9 @@ export default function HeroOnPage(){
               <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
                 Оставить заявку, связаться с менеджером.
               </p>
-            </Link>
+</Link>
     
-            <Link
+<Link
               href="#section-d"
               className="rounded-lg border border-gray-100 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
 
@@ -126,10 +116,34 @@ export default function HeroOnPage(){
               <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
                 Наши офисы, и наши контакты...
               </p>
-            </Link>
-          </div>
+</Link>
+            
+</div>
+
+
+
+       <div className=' pt-8'>
+
+                   <div className='p-34'>
+                   <svg className="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
+                   <circle cx="12" cy="12" r="11" />
+                   <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                   </svg>
+                   <p className="ml-4">
+                      Автоматизированные системы коммерческого учета 
+                   <code className="text-sm font-bold text-gray-700">(АСКУЭ)</code>тепла и электроэнергии
+                   </p>
+                   <a className='text-[24px] font-bold'>
+                   КАК ВЫ СЧИТАЕТЕ РАСХОДЫ ?
+                   </a>
+                   </div>
+
+                  
+      </div>
     
-    
+
+
+          
     
           </div>
 }

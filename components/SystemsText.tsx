@@ -1,7 +1,8 @@
 export default function SystemsTextViewer(){
-    return<article>
-        <h1 className=" font-bold text-lg pb-10 ">Features</h1>
-        <p>
+    return<>
+    <article className='pb-10 px-24'>
+        <h1 className=" font-bold text-lg  ">Features</h1>
+        <p className='pt-10'>
         
 A performant, static blog with editable posts, authors, and site settings
 A native and customizable authoring environment, accessible on yourblog.com/studio
@@ -14,4 +15,5 @@ A project with starter-friendly and not too heavy-handed TypeScript and Tailwind
 
         </p>
     </article>
+    </>
 }
